@@ -28,7 +28,7 @@ const HomePage = ({ blogs, children }: HomeProps) => {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I`'`m Brendan Sluke!</p>
+        <p>Hello, I'm Brendan Sluke!</p>
         <p>
           Welcome to my personal site, I have recently moved my{" "}
           <a href="https://webdev.box33.net/blog">Web Development blog</a> off
