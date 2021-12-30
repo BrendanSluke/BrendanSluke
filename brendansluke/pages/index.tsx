@@ -50,8 +50,7 @@ const HomePage = ({ blogs, children }: HomeProps) => {
         </p>
         <p>
           This site is built using <a href="https://nextjs.org">Next.js</a> and
-          is deployed using{" "}
-          <a href="https://pages.cloudflare.com">Cloudflare Pages</a>.
+          is deployed using <a href="https://vercel.com">Vercel</a>.
         </p>
         <p>
           This site is also open source, if you want to add something please{" "}
