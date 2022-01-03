@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+This repo is hosted at my personal site, [Brendan Sluke](https://www.brendansluke.com)
 <!--
 **BrendanSluke/BrendanSluke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
