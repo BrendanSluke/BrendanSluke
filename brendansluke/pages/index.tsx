@@ -59,6 +59,11 @@ const HomePage = ({ blogs, children }: HomeProps) => {
           </a>
           .
         </p>
+        <p>
+          If you are interested in some of the tools that I use for web
+          development, check out my <Link href="/tools-i-use">Tools I Use</Link>{" "}
+          page.
+        </p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
