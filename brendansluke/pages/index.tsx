@@ -64,6 +64,15 @@ const HomePage = ({ blogs, children }: HomeProps) => {
           development, check out my <Link href="/tools-i-use">Tools I Use</Link>{" "}
           page.
         </p>
+
+        <p>
+          If you want the <i>secret</i> recipe for my Grandma Jo's BBQs (Sloppy
+          Joes), checkout{" "}
+          <Link href="/recipes/joanne-sluke-bbq-recipe">
+            Joanne Sluke's BBQ Recipe
+          </Link>
+          .
+        </p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
