@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Script from "next/script";
+import { Header } from "./header";
 
 const name = "Brendan Sluke";
 export const siteTitle = "Brendan Sluke";
@@ -15,9 +14,6 @@ export default function Layout({
   children: React.ReactNode;
   home: boolean;
 }) {
-  const profilePictureImageSrcPath =
-    "/images/mercedes-and-brendan-one-world-trade-center-observatory.png";
-
   return (
     <div className={styles.container}>
       <Head>
@@ -50,42 +46,10 @@ export default function Layout({
           `,
         }}
       ></Script>
-      <header className={styles.header}>
-        {home ? (
-          <>
-            <Image
-              priority
-              src={profilePictureImageSrcPath}
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <a>
-                <Image
-                  priority
-                  src={profilePictureImageSrcPath}
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
-      </header>
+
+      <Header home={home} name={name}></Header>
       <main>{children}</main>
+
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
