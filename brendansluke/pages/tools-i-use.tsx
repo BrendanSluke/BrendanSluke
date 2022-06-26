@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 
 const ToolsIUse = () => {
   return (
-    <Layout home>
+    <Layout home={false}>
       <Head>
         <title>Tools I Use</title>
       </Head>
