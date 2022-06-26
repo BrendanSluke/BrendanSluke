@@ -15,6 +15,9 @@ export default function Layout({
   children: React.ReactNode;
   home: boolean;
 }) {
+  const profilePictureImageSrcPath =
+    "/images/mercedes-and-brendan-one-world-trade-center-observatory.png";
+
   return (
     <div className={styles.container}>
       <Head>
@@ -52,7 +55,7 @@ export default function Layout({
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src={profilePictureImageSrcPath}
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -66,7 +69,7 @@ export default function Layout({
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src={profilePictureImageSrcPath}
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
