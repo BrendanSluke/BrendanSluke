@@ -31,17 +31,17 @@ const HomePage = ({ blogs, children }: HomeProps) => {
         <p>Hello, I'm Brendan Sluke!</p>
         <p>
           Welcome to my personal site, I have recently moved my{" "}
-          <a href="https://webdevtutor.net">Web Development blog</a> off of my
-          personal site.
+          <a href="https://www.webdevtutor.net">Web Development blog</a> off of
+          my personal site.
         </p>
         <p>
           I'm hoping to write about more personal ideas and philosophies that
           aren't 100% about Software or{" "}
-          <a href="https://webdevtutor.net">Web Development</a>.
+          <a href="https://www.webdevtutor.net">Web Development</a>.
         </p>
         <p>
           A lot of my current web development projects live on{" "}
-          <a href="https://box33.net">Box33.net</a>.
+          <a href="https://www.box33.net">Box33.net</a>.
         </p>
         <p>
           The best place to contact me is by DM'ing me on{" "}
