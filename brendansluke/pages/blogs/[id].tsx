@@ -28,8 +28,7 @@ interface BlogProps {
 
 export default function BlogPage({ blogData }: BlogProps) {
   return (
-    <Layout home>
-      {/* Add this <Head> tag */}
+    <Layout home={false}>
       <Head>
         <title>{blogData.title}</title>
       </Head>
